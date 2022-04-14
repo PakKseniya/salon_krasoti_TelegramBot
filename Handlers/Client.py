@@ -1,6 +1,6 @@
 from aiogram import types, Dispatcher
 from Create_bot import dp, bot
-from Keyboards import kb_client
+from Keyboards.Client_kb import kb_client
 from DB import Sqlite_db
 
 
