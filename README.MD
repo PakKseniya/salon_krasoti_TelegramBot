@@ -13,8 +13,7 @@
 
 * Для запуска работы приложения, а также для безопасного хранения TOKENа используется batch-файл в котором прописаны команды для запуска приложения
   Номер токена в файле bot_run.bat не выложен на github.com из соображений безопасности.
-
-  <img src="/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/1.png?raw=true" alt="1.png">
+  <img https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/1.png>
 
 * Сделан модуль для фильтрации и удаления нецензурных сообщений, с возможностью обновления списка слов по инструкции прилагаемой к модулю
 
