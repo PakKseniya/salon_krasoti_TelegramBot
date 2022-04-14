@@ -1,10 +1,10 @@
 import sqlite3 as sq
-from Create_bot import bot
+from CreateBot import bot
 
 
 def sql_start():
     global base, cur
-    base = sq.connect('salon.db') #если такого нет, он создастся если есть подключится
+    base = sq.connect('Salon.db') #если такого нет, он создастся если есть подключится
     cur = base.cursor() #ЧАСТЬ КОТОРАЯ ЗАНИМАЕТСЯ РАБОТОЙ С ДАННЫМИ
     if base:
         print('База данных подключена')

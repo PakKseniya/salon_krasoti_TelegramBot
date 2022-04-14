@@ -1,11 +1,11 @@
 from aiogram.utils import executor
-from Create_bot import dp
-from DB import Sqlite_db
+from CreateBot import dp
+from DB import SqliteDb
 
 
 async def on_startup(_):
     print('Бот вошел в онлайн')
-    Sqlite_db.sql_start()
+    SqliteDb.sql_start()
 
 
 from Handlers import Client, Admin, Other

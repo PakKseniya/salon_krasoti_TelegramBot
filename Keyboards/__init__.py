@@ -1,2 +1,2 @@
-from Keyboards.Client_kb import kb_client
+from Keyboards.ClientKb import kb_client
 

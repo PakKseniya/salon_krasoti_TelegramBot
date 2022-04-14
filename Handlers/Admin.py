@@ -1,10 +1,10 @@
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram import types, Dispatcher
-from Create_bot import dp, bot
+from CreateBot import dp, bot
 from aiogram.dispatcher.filters import Text
-from DB import Sqlite_db
-from Keyboards import Admin_kb
+from DB import SqliteDb
+from Keyboards import AdminKb
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 ID = None
@@ -22,13 +22,13 @@ class FSMAdmin(StatesGroup):
 async def make_changes_command(message: types.Message):
     global ID
     ID = message.from_user.id
-    await bot.send_message(message.from_user.id, 'Чего желаете?', reply_markup=Admin_kb.button_case_admin)
+    await bot.send_message(message.from_user.id, 'Чего желаете?', reply_markup=AdminKb.button_case_admin)
     await message.delete()
 
 
 #Начало диалога загрузки нового пункта прайса
 # @dp.message_handler(commands='Загрузить', state=None)
-async def cm_start(message : types.Message):
+async def cm_start(message: types.Message):
     if message.from_user.id == ID:
         await FSMAdmin.photo.set()
         await message.reply('Загрузи фото')
@@ -83,18 +83,18 @@ async def load_price(message: types.Message, state: FSMContext):
         async with state.proxy() as data:
             data['price'] = message.text
 
-        await Sqlite_db.sql_add_command(state)
+        await SqliteDb.sql_add_command(state)
         await state.finish()
 
 #@dp.callback_query_handler(lambda x: x.data and x.data.startswith('del '))
 async def del_callback_run(callback_query: types.CallbackQuery):
-    await Sqlite_db.sql_delete_command(callback_query.data.replace('del ',''))
+    await SqliteDb.sql_delete_command(callback_query.data.replace('del ', ''))
     await callback_query.answer(text=f'{callback_query.data.replace("del ", "")} удалена.', show_alert=True)
 
 #@dp.message_handler(commands='Удалить')
 async def delete_item(message: types.Message):
     if message.from_user.id == ID:
-        read = await Sqlite_db.sql_read2()
+        read = await SqliteDb.sql_read2()
         for ret in read:
             await bot.send_photo(message.from_user.id, ret[0], f'{ret[1]}\nОписание: {ret[2]}\nЦена {ret[-1]}')
             await bot.send_message(message.from_user.id, text='^^^', reply_markup=InlineKeyboardMarkup().
