@@ -1,8 +1,6 @@
-<body>
+# <img  alt="SalonKrasBot" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/Телеграм%20-бот%20Салона%20красоты.png" width="1100px"/>
 
-<h1 align="center">Телеграм-бот
-
-"Помощник администратора салона красоты"</h1>
+<h1 align="center">"Помощник администратора салона красоты"</h1>
 
 
 <h3 align="center">
@@ -76,45 +74,76 @@
 <img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/3.png"> 
   
   4. В случае использования участниками общения нецензурной лексики данные сообщения удаляются с оповещение о том что "Материться запрещено"
-
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/14a.png">
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/14b.png"> 
-  
+<table>
+<tr>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/14a.png" alt=""width="500" height="450"/></a> </td>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/14b.png" alt=""width="500" height="450"/></a></td>
+</tr>
+</table>
 
   5. После автоматического ответа от телеграмм бота выбирите одну из предложенных кнопок для получения быстрого ответа(расположения, контакты, список всех процедур, прайс и т.д.)
+<table>
+<tr>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/4.png" alt=""width="500" height="450"/></a> </td>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/5.png" alt=""width="500" height="450"/></a></td>
+</tr>
+</table>
+<table>
+<tr>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/6.png" alt=""width="500" height="450"/></a> </td>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/7.png" alt=""width="500" height="450"/></a></td>
+</tr>
+</table>
 
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/4.png"> 
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/5.png"> 
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/6.png">
-<img scr="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/7.png">
   
   6. В случае если нужная информация не найдена, есть возможность либо обратиться в группе к администратору либо отправить свой номер для обратного звонка(данный функцинал в процессе разработки)
-
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/8a.png">
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/8b.png">  
+<table>
+<tr>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/8a.png" alt=""width="500" height="450"/></a> </td>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/8b.png" alt=""width="500" height="450"/></a></td>
+</tr>
+</table>
   
   7. Для перехода администратора к своей части в боте, необходимо в группе написать запрос в диалоговм окне <strong>/moderator</strong>, после чего бот предоставит скрытую панель кнопок для дальнейшей работы, а запрос в группе будет удален(во избежания доступа клиентов к админской части в приложении прописана проверка на права администратора, которые настраиваются в управлении группой)
-
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/9.png"> 
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/10.png">  
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/15.png">
+<table>
+<tr>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/9.png" alt=""width="500" height="450"/></a> </td>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/10.png" alt=""width="500" height="450"/></a></td>
+</tr>
+</table>
+<table>
+<tr>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/15.png" alt=""width="500" height="450"/></a> </td>
+</tr>
+</table>
   
   8. Чтобы загрузить описание новой процедуры в БД, нажимается кнопка <strong>/Загрузить</strong>, после чего запускается сценарий последовательных вопросов(Загрузка фото->Название процедуры->Описание->Цена).После введения цены, сценарий будет остановлен без оповещения администратора.
+<table>
+<tr>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/11a.png" alt=""width="500" height="450"/></a> </td>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/11b.png" alt=""width="500" height="450"/></a></td>
+</tr>
+</table>
 
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/11a.png"> 
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/11b.png"> 
   
   9.В случае, если при введении данных замечена ошибка и графа <strong> Цена </strong> еще не пройдена, в диалоговом окне необходимо написать <strong>/отмена</strong>, при успешном выполнении будет сообщение об остановке введения данных
-
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/12a.png"> 
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/12b.png">  
+<table>
+<tr>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/12a.png" alt=""width="500" height="450"/></a> </td>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/12b.png" alt=""width="500" height="450"/></a></td>
+</tr>
+</table>  
   
   10.Если ошибка обнаружена после заполнени всех данных, с помощью кнопки <strong>/удалить</strong> выгружается вся БД с инлайн кнопками для удаления полностью данных одной процедуры
+<table>
+<tr>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/13a.png" alt=""width="500" height="450"/></a> </td>
+<td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/13b.png" alt=""width="500" height="450"/></a></td>
+</tr>
+</table> 
 
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/13a.png"> 
-<img src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/13b.png">
-  
 </font>
+  
 
 
 
