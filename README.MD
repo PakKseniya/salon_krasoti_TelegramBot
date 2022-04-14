@@ -14,14 +14,16 @@
 * Для запуска работы приложения, а также для безопасного хранения TOKENа используется batch-файл в котором прописаны команды для запуска приложения
   Номер токена в файле bot_run.bat не выложен на github.com из соображений безопасности.
   
-   <h3 align='justif'>
-  <p>@echo off</p>
-  <p>call %~dp0salon_bot\venv\Scripts\activate</p>
-  <p>cd %~dp0salon_bot</p>
-  <p>set TOKEN= введение № без кавычек</p>
-  <p>python BotTelegpy.py</p>
-  <p>pause</p>
-   </h3>
+```
+ @echo off
+ call %~dp0salon_bot\venv\Scripts\activate
+ cd %~dp0salon_bot
+ set TOKEN= введение № без кавычек
+ python BotTelegpy.py
+ pause
+
+```
+    
 
 * Сделан модуль для фильтрации и удаления нецензурных сообщений, с возможностью обновления списка слов по инструкции прилагаемой к модулю
 
