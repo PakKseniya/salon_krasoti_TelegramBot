@@ -1,7 +1,7 @@
 from aiogram import types, Dispatcher
 from Create_bot import dp, bot
 from Keyboards import kb_client
-from data_base import sqlite_db
+from DB import Sqlite_db
 
 
 
@@ -29,7 +29,7 @@ async def nail_insta_command(message : types.Message):
 
 # @dp.message_handler(commands=['Весь_список_процедур'])
 async def salon_allproc_command(message: types.Message):
-    await sqlite_db.sql_read(message)
+    await Sqlite_db.sql_read(message)
 
 async def salon_allprice_command(message: types.Message):
     await bot.send_photo(message.from_user.id, 'https://i.pinimg.com/736x/d5/d8/8f/d5d88f772c67fa36a4d798ec5dfd0a03.jpg')
