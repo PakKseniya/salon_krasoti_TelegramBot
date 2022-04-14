@@ -136,7 +136,7 @@ $ pip install -r requirements.txt
 </table>
 
   
-  9.В случае, если при введении данных замечена ошибка и графа <strong> Цена </strong> еще не пройдена, в диалоговом окне необходимо написать <strong>/отмена</strong>, при успешном выполнении будет сообщение об остановке введения данных
+  9. В случае, если при введении данных замечена ошибка и графа <strong> Цена </strong> еще не пройдена, в диалоговом окне необходимо написать <strong>/отмена</strong>, при успешном выполнении будет сообщение об остановке введения данных
 <table>
 <tr>
 <td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/12a.png" alt=""width="500" height="450"/></a> </td>
@@ -144,7 +144,7 @@ $ pip install -r requirements.txt
 </tr>
 </table>  
   
-  10.Если ошибка обнаружена после заполнени всех данных, с помощью кнопки <strong>/удалить</strong> выгружается вся БД с инлайн кнопками для удаления полностью данных одной процедуры
+  10. Если ошибка обнаружена после заполнени всех данных, с помощью кнопки <strong>/удалить</strong> выгружается вся БД с инлайн кнопками для удаления полностью данных одной процедуры
 <table>
 <tr>
 <td><img title="Описание" src="https://github.com/PakKseniya/salon_krasoti_TelegramBot/blob/master/Screenshots/13a.png" alt=""width="500" height="450"/></a> </td>
